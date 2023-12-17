@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-13T20:50:39 PST" name="Suite" finished-at="2023-12-13T20:50:55 PST" duration-ms="16102">
+    <groups>
+      <group name="regression">
+        <method signature="LoginTest.validLogin()[pri:0, instance:com.neotech.testcases.LoginTest@6fb365ed]" name="validLogin" class="com.neotech.testcases.LoginTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginTest.validLogin()[pri:0, instance:com.neotech.testcases.LoginTest@6fb365ed]" name="validLogin" class="com.neotech.testcases.LoginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-12-13T20:50:39 PST" name="Smoke Test" finished-at="2023-12-13T20:50:55 PST" duration-ms="16102">
+      <class name="com.neotech.testcases.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.neotech.testcases.LoginTest@6fb365ed]" started-at="2023-12-13T20:50:39 PST" name="setUp" finished-at="2023-12-13T20:50:47 PST" duration-ms="8244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLogin()[pri:0, instance:com.neotech.testcases.LoginTest@6fb365ed]" started-at="2023-12-13T20:50:47 PST" name="validLogin" finished-at="2023-12-13T20:50:54 PST" duration-ms="6584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.neotech.testcases.LoginTest@6fb365ed]" started-at="2023-12-13T20:50:54 PST" name="tearDown" finished-at="2023-12-13T20:50:55 PST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.neotech.testcases.LoginTest -->
+      <class name="com.neotech.testcases.AddEmployeTest">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.neotech.testcases.AddEmployeTest@5b1ebf56]" started-at="2023-12-13T20:50:39 PST" name="generateReport" finished-at="2023-12-13T20:50:39 PST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method is-config="true" signature="writeReport()[pri:0, instance:com.neotech.testcases.AddEmployeTest@5b1ebf56]" started-at="2023-12-13T20:50:55 PST" name="writeReport" finished-at="2023-12-13T20:50:55 PST" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeReport -->
+      </class> <!-- com.neotech.testcases.AddEmployeTest -->
+    </test> <!-- Smoke Test -->
+  </suite> <!-- Suite -->
+</testng-results>
